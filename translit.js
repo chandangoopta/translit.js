@@ -2,7 +2,10 @@
  * Trasliteration regular expression rules table for Sanskrit
  * @author Junaid P V ([[user:Junaidpv]])
  * @date 2010-10-12
- * License: GPLv3, CC-BY-SA 3.0
+ * License: GPLv3, CC-BY-SA 3.0i
+ * Compatibilty made with MPP Romanized Unicode by
+ * @author Chandan P. Gupta
+ * @date 2012-06-03
  */
 if(tr_sa== undefined) var tr_sa = {};
 else tr_sa = {};
@@ -138,7 +141,7 @@ tr_sa.rules = [
 ['X', '','ढ'],
 ['Y', '','ञ'],
 ['Z', '','ऋ'],
-/Checking down now
+//For Numbers
 ['0', '','०'],
 ['1', '','१'],
 ['2', '','२'],
